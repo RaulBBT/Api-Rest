@@ -31,9 +31,6 @@ $(document).ready(function() {
 	$("#buscar").click(function() {
 		if(comprobador){
 			$("#contenedor").empty();
-			posters.splice(0, posters.length);
-			titulos.splice(0, titulos.length);
-			anos.splice(0, anos.length);
 		}
 		$.getJSON("http://www.omdbapi.com/?apikey=234b163d&s="+$("input").val()+"&page="+1, function(pelis){
 			for (peli of pelis.Search){
