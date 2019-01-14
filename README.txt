@@ -6,4 +6,3 @@ Recomendaciones de busqueda:
 "pokemon"
 ...
 
-Existe un error en el scroll infinito, que debido a un fallo desconocido se ejecuta antes de que llegue abajo del todo de la pagina.
